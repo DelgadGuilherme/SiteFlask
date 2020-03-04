@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hamburgueria Artesanal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/estilo.css', _external=True)}}">
+</head>
+<body>
+	<div align="center">
+		<header>
+			<img src="{{url_for('static', filename='img/logo.jpg', _external=true)}}" width="60" height="60">
+				Hamburgueria Artesanal
+			<br>
+			<br>
+		</header>
+			<i>Os melhores Hambúrguers de Vassouras estão aqui!</i>
+	</div>
+		<br>
+		<br>
+		<br>
+	<center>
+		<table>
+			<tr>
+				<td>
+					<figure>
+						<img src="{{url_for('static', filename='img/ham1.png', _external=true)}}" alt="Imagem do Hambúrguer artesanal" width="250">
+					</figure>
+				</td>
+				<td>
+					<figure>
+						<img src="{{url_for('static', filename='img/ham2.jpg', _external=true)}}" alt="Imagem do X-tudo" width="250">
+					</figure>
+				</td>
+				<td>
+					<figure>
+						<img src="{{url_for('static', filename='img/ham3.png', _external=true)}}" alt="Imagem do Hambúrguer duplo" width="250">
+					</figure>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<a href="{{url_for('caseiro')}}">Hambúrguer Artesanal</a>
+				</td>
+				<td align="center">X-tudo</td>
+				<td align="center">Hambúrguer duplo</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		Desenvolvido por: Guilherme Delgado - 2019 - Todos os direitos reservados.
+	</center>
+</body>
+</html>

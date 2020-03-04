@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hambúrguer Artesanal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="{{url_for('static', filename='css/estilo.css', _external=True)}}">
+</head>
+<body>
+	<div align="center">
+		<header>
+			<br>
+			Hamburgueria Artesanal
+			<br>
+		</header>
+	</div>
+		<hr>
+		<br>
+	<center><h2>Hambúrguer Artesanal</h2></center>
+		<br>
+
+	<div align="center">
+		<table>
+			<tr>
+				<td rowspan="4">
+					<figure>
+						<img src="img/ham1.png" alt="Foto do Hambúrguer Caseiro">
+					</figure>
+				</td>
+				<td>
+					<b>Descrição:</b>
+				</td>
+			</tr>
+				<td>
+					<ul>
+						<li>Pão</li>
+						<li>Salada</li>
+						<li>Queijo</li>
+						<li>Bife</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>Preço:</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					R$25,99(<i>Vinte cinco reais e noventa e nove centavos</i>)
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<br>
+	<center>
+		<b><a href="{{url_for('index')}}">Voltar para página principal</a></b>
+	<br>
+	<br>
+	<br>
+		Desenvolvido por: Guilherme Delgado - 2019 - Todos os direitos reservados.
+	</center>
+</body>
+</html>
